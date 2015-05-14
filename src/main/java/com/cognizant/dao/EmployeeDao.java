@@ -21,6 +21,7 @@ import com.cognizant.interfaces.EmployeedaoInterface;
 public class EmployeeDao  implements EmployeedaoInterface{
 	
 	private JdbcTemplate jdbcTemplate;
+private int a;
 
 	@Autowired
 	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
